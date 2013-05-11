@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Scores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A 6 person mixed A Capella group based in London, singing arrangements of everything from golden oldies to your favourite club hits!">    
+    <meta name="author" content="Oliver Wilkie">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">The Scores</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav" id="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#section-1">About</a></li>
+              <li><a href="#section-2">Songs</a></li>
+              <li><a href="#section-3">Videos</a></li>
+              <li><a href="#section-4">Concerts</a></li>
+              <li><a href="#section-5">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <div id="video-box">
+	    <div class="flex-video widescreen">
+	<iframe width="" height="" src="http://www.youtube-nocookie.com/embed/H--C9vP2NrA?controls=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+	    </div>
+    </div>
+
+    <div class="container" id="section-1">
+
+      <div class="row">
+  <div class="span6">
+  <h1>About</h1>
+  <p>We are a 6 person mixed A Capella group based in London, singing arrangements of everything from golden oldies to your favourite club hits!</p></div>
+  <div class="span6">
+	  <div id="group-photos" class="carousel slide">
+	  		<div class="carousel-inner">
+	  			<div class="active item"><img src="img/scores.jpg"/></div>
+	  			<div class="item"><img src="img/scores2.jpg"/></div>
+	  			<div class="item"><img src="img/scores3.jpg"/></div>
+	  		</div>
+	  </div>
+  </div>
+  		</div>
+
+    </div> <!-- /container -->
+    
+    <div class="container" id="section-2">
+
+      <h1>Songs</h1>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F57623950&amp;color=752e20&amp;auto_play=false&amp;show_artwork=true"></iframe>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F82957568"></iframe>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F78610142"></iframe>
+    </div> <!-- /container -->
+    
+    
+    <div class="container" id="section-3">
+      <h1>Videos</h1>
+      <p>Follow us on <a href="http://www.youtube.com/user/TheScoresAcapella">YouTube</a></p>
+      <iframe width="640" height="385" src="http://www.youtube.com/embed?listType=user_uploads&list=TheScoresAcapella&showinfo=1" frameborder="0" allowfullscreen></iframe>
+
+    </div> <!-- /container -->
+    
+    <div class="container" id="section-5">
+    <h1>Contact Us <small>For bookings and general enquiries</small></h1>
+     <div id="wufoo-z7x3p3" class="span4">
+     </div>
+	<script type="text/javascript">var z7x3p3;(function(d, t) {
+	var s = d.createElement(t), options = {
+	'userName':'thescores', 
+	'formHash':'z7x3p3', 
+	'autoResize':true,
+	'height':'458',
+	'async':true,
+	'header':'hide'};
+	s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+	s.onload = s.onreadystatechange = function() {
+	var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+	try { z7x3p3 = new WufooForm();z7x3p3.initialize(options);z7x3p3.display(); } catch (e) {}};
+	var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+	})(document, 'script');</script>
+						
+
+    </div> <!-- /container -->
+    
+    <div class="footer">
+    	<small>Website by <a href="http://www.ovida.co.uk">Ovida</a></small>
+    </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function() {
+		$('#nav').onePageNav({
+			currentClass: 'active',
+			scrollOffset: 60
+		});
+		$('.carousel').carousel();
+	});
+	</script>
+  </body>
+</html>
