@@ -36,6 +36,13 @@
 .carousel .active.left {left:0;opacity:0;z-index:2;}
 .carousel .next {left:0;opacity:1;z-index:1;}
 
+.bio-photo-placeholder {
+}
+
+.bio-photo-placeholder img {
+	padding: 4px;
+}
+
 .videoBox {
 	text-align: center;
 }
