@@ -44,6 +44,14 @@
 	padding-top: 25px;
 }
 
+#contact-us-image-placeholder img {
+	max-height: 200px;
+}
+
+.center {
+	text-align: center;
+}
+
 .footer {
 	text-align: right;
 }
